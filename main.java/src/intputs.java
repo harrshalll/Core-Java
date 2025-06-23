@@ -14,10 +14,12 @@ public class intputs {
         input.nextLine();/* --> this line consumes the leftover after pressing enter key. If we doesn't use this line
         then we cannot enter the input string and system gives us empty string*/
 // taking string input
+        System.out.print("Name:");
        String name = input.nextLine();
-       System.out.println(name);
+       System.out.println("Your Name " +name);
 
+        System.out.print("cgpa:");
        float cgpa = input.nextFloat();
-        System.out.println(cgpa);
+        System.out.println("your cgpa:" +cgpa);
     }
 }

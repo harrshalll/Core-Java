@@ -17,6 +17,13 @@ public class algebra {
         float f2 = input.nextFloat();
         float add = f1 + f2;
         System.out.println("addition: "+add);
+    // fun
+        System.out.print("enter n1");
+        int n1 = input.nextInt();
+        System.out.print("enter n2");
+        int n2 = input.nextInt();
+        System.out.print("addition is " + (n1+n2));
+
 
 
     }
