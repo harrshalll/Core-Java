@@ -1,10 +1,13 @@
+//NestedSwitch(Switch in switch)
 import java.util.Scanner;
+
 
 public class NestedSwitch {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter EmpID:");
         int empID = in.nextInt();
+        in.nextLine();
         String Department = in.next();
 
 

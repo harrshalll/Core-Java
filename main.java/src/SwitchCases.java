@@ -26,6 +26,6 @@ public class SwitchCases {
 1.cases have to be same type as expression(here string)
 2.duplicate case values are not allowed.
 3.default will execute when none of the above does.
-4if default is not at the end, put the break after to terminate the program. */
+4.if default is not at the end, put the break after to terminate the program. */
 
 
