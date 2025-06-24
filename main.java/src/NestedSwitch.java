@@ -5,6 +5,7 @@ public class NestedSwitch {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter EmpID:");
         int empID = in.nextInt();
+        in.nextLine();
         String Department = in.next();
 
 
