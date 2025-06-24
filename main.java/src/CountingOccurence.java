@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 /*there are two ways to find counting occurence
 1st = convert the datatypes from int to string and iterate over the all char.
