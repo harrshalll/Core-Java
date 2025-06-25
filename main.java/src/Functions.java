@@ -14,4 +14,4 @@ public class Functions {
         sum();
     }
 }
-//return type--->
+//return type---> this should specify before method.
