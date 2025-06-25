@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 32eac22f7a36d2711d7801900bbbbffd8fc6617b
 import java.util.Scanner;
 /*there are two ways to find counting occurence
 1st = convert the datatypes from int to string and iterate over the all char.
@@ -22,7 +19,3 @@ public class CountingOccurence {
     }
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 32eac22f7a36d2711d7801900bbbbffd8fc6617b
