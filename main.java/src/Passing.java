@@ -1,7 +1,7 @@
 public class Passing {
     public static void main(String[] args) {
         String name = "Harshal Avhad";
-        introduce(name);
+        introduce(name);//----->here function call and value also passed.
     }
     static void introduce(String naam){
         System.out.println(naam);
@@ -11,7 +11,7 @@ public class Passing {
 In java there is only passed by value ---> let's take above example to understand. we take name ref.variable in main()
 function and stores its value and call the introduce method by using ref.variable name(argument) but in method block of
  code we used the naam parameter. so when you call the introduce method by using argument it internally take the copy of
- value i.e."Harshal Avhad" and also passed this value in naam parameter
+ value i.e. "Harshal Avhad" and also passed this value in naam parameter
 step:1
  main method:
 ────────────
