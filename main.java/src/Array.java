@@ -9,7 +9,8 @@ public class Array {
         String name = "Harshal Avhad";
 
         //Q. store 5 roll nos.
-        int[] roll_no = new int[5];// new keyword is used to create an object  in heap memory.
+        int[] roll_no = new int[5];// new keyword is used to create an object in heap memory, just like [new Scanner]
+                                   //when we take input of anything.
         //or
         int[] roll_no2 = {1,25,36,25,45};
                 //stack     object
@@ -20,8 +21,28 @@ public class Array {
         rno = new int[5];// initialization: actually here object is being created inside the memory(heap memory).at run time
 
 
-        String[] arr = new String[4];
+        String[] arr = new String[4];//NULL--->This object reference doesn’t point to anything.
         System.out.println(arr[0]);
+
+        double[] price = new double[3];
+        price[0] = 9.99;
+        price[1] = 10.99;
+        price[2] = 11.99;
+        //[9.99, 10.99, 11.99]
+        System.out.println(Arrays.toString(price));
+        System.out.println(price.length);
+
+        //taking a String array
+        String[] cities = new String[2];//DECLARATION OF STRING ARRAY
+        cities[0] = "Mumbai";// INITIALIZATION OF STRING ARRAY
+        cities[1] = "Delhi";
+        System.out.println(Arrays.toString(cities));
+
+        //or
+
+        String[] names = {"Harshal", "Chandrakant" ,"Sunanda" ,"Shraddha"};// DECLARATION AND INITIALIZATION IN ONE STEP
+        System.out.println(Arrays.toString(names));
+
         
     }
 }
