@@ -4,11 +4,11 @@ public class Swap {
         int b = 20;
 
         // swap two numbers
-     //   int temp = a ;
-       // a = b;
-       // b = temp;
-        //System.out.println(a);
-      //  System.out.println(b);
+//        int temp = a ;
+//         a = b;
+//         b = temp;
+//        System.out.println(a);
+//        System.out.println(b);
 
     }
 }
